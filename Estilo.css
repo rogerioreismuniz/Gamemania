@@ -109,12 +109,7 @@
         text-shadow: 1px 1px 1px black;
     }
     
-    .fa-star:nth-child(6) {
-        color: white;
-        text-shadow: 1px 1px 1px black;
-    }
-    
-    .fa-star:nth-child(5) {
+    .branco {
         color: white;
         text-shadow: 1px 1px 1px black;
     }
