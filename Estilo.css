@@ -1,0 +1,120 @@
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #market {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    
+    #market div {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #search {
+        width: 800px;
+        text-align: center;
+    }
+    
+    #search input {
+        width: 600px;
+        margin-top: 60px;
+    }
+    
+    #Produtos {
+        display: flex;
+    }
+    
+    .itens img {
+        width: 250px;
+        height: 200px;
+        padding: 30px;
+    }
+    
+    .itens button {
+        background-color: red;
+        width: 150px;
+        height: 40px;
+        border-radius: 05px;
+        color: white;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .itens {
+        text-align: center;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #icones {
+        width: 100px;
+        text-align: center;
+    }
+    
+    #contato {
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Log {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .itensi5 button {
+        background-color: red;
+        width: 150px;
+        height: 40px;
+        border-radius: 05px;
+        color: white;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .itensi5 {
+        display: flex;
+    }
+    
+    #one {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #two {
+        width: 60%;
+    }
+    
+    #two button {
+        margin: 120px 0 0 250px;
+        width: 200px;
+    }
+    
+    .fa-star {
+        color: gold;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .fa-star:nth-child(6) {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .fa-star:nth-child(5) {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
