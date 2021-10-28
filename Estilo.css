@@ -38,7 +38,7 @@
     
     .itens button {
         background-color: red;
-        width: 150px;
+        width: 100px;
         height: 40px;
         border-radius: 05px;
         color: white;
@@ -112,4 +112,21 @@
     .branco {
         color: white;
         text-shadow: 1px 1px 1px black;
+    }
+    
+    #carrinho {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: rgb(182, 22, 11);
+        color: white;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #js {
+        display: flex;
+        align-items: center;
     }
