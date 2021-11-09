@@ -29,7 +29,6 @@
     #search {
         width: 100%;
         text-align: center;
-        border: solid;
     }
     
     #search input {
@@ -68,15 +67,26 @@
     }
     
     #icones {
-        width: 100px;
+        width: 100%;
         text-align: center;
     }
     
     #contato {
-        width: 900px;
+        width: 100%;
         display: flex;
         justify-content: start;
         align-items: center;
+    }
+    
+    @media (max-width: 600px) {
+        #contato {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        #icones {
+            margin-bottom: 10%;
+        }
     }
     
     .Log {
