@@ -19,26 +19,48 @@
 
 <body>
     <header>
-        <div class="Logo">
-            <a href="MY WEBSITE LINK" target="_blank"><img src="Logo.gif" width="400" height="292"></a>
-        </div>
-        <div class="barradepesquisa">
-            <div id="market">
-                <div>
-                    <div id="js">
-                        <p id="carrinho">0</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="market.jfif" width="91" height="86">
-                        </a>
-                    </div>
-                    <p>Login</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="Logo">
+                    <a href="index.html" target="_blank"><img src="Logo.gif" width="400" height="292"></a>
                 </div>
             </div>
-            <div id="search">
-                <h3>Tudo para seu PC Gamer, você encontra aqui!</h3>
-                <i class="fas fa-search"></i>
-                <input type="search" id="log" placeholder="Buscar:">
+            <div class="col-md-8">
+                <!-- Menu botões -->
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <a href="Compra i5.html" target="_blank">
+                            <button class="btn btn-danger" type="button">Qauntum Furious</button>
+                        </a>
+                        <a href="Comprar not.html" target="_blank">
+                            <button class="btn btn-danger" type="button">Gamer Predator</button>
+                        </a>
+                        <a href="Compra psit.html" target="_blank">
+                            <button class="btn btn-danger" type="button">Celeron Positivo</button>
+                        </a>
+                        <a href="Compra kit.html" target="_blank">
+                            <button class="btn btn-danger" type="button">Kit Gamer</button>
+                        </a>
+                    </form>
+                </nav>
+                <!-- Final menu botões -->
+                <div class="barradepesquisa">
+                    <div id="market">
+                        <div>
+                            <div id="js">
+                                <p id="carrinho">0</p>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="market.jfif" width="91" height="86">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="search">
+                        <h3>Tudo para seu PC Gamer, você encontra aqui!</h3>
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="log" placeholder="Buscar:">
+                    </div>
+                </div>
             </div>
-
 
         </div>
         <!-- Modal -->
@@ -59,46 +81,50 @@
                 </div>
             </div>
         </div>
+
     </header>
     <hr>
     <section id="Produtos">
-        <div id="iten-1" class="itens">
-            <img src="i5.jfif">
-            <h3>Pc Gamer Qauntum Furious</h3>
-            <p>15.600,00 em até 12x sem juros</p>
-            <a href="Compra i5.html" target="_blank">
-                <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
-            <button id="btn-1" onclick="addcesta(this.id)" value="1"> <i class="fas fa-shopping-cart"></i> Carrinho </button>
+        <div class="row">
+            <div id="iten-1" class="itens col-md-3">
+                <img src="i5.jfif">
+                <h3>Pc Gamer Qauntum Furious</h3>
+                <p>15.600,00 em até 12x sem juros</p>
+                <a href="Compra i5.html" target="_blank">
+                    <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
+                <button id="btn-1" onclick="addcesta(this.id)" value="1"> <i class="fas fa-shopping-cart"></i> Carrinho </button>
 
-        </div>
-        <div id="iten-2" class="itens">
-            <img src="not.jpg">
-            <h3>Notebook Gamer Predator</h3>
-            <p>8.200,00 em até 12x sem juros</p>
-            <a href="Comprar not.html" target="_blank">
-                <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
-            <button id="btn-2" onclick="addcesta(this.id)" value="2"><i class="fas fa-shopping-cart"></i> Carrinho </button>
+            </div>
+            <div id="iten-2" class="itens col-md-3">
+                <img src="not.jpg">
+                <h3>Notebook Gamer Predator</h3>
+                <p>8.200,00 em até 12x sem juros</p>
+                <a href="Comprar not.html" target="_blank">
+                    <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
+                <button id="btn-2" onclick="addcesta(this.id)" value="2"><i class="fas fa-shopping-cart"></i> Carrinho </button>
 
-        </div>
-        <div id="iten-3" class="itens">
-            <img src="pc.jfif">
-            <h3>Pc Gamer Positivo</h3>
-            <p>5.600,00 em até 12x sem juros</p>
-            <a href="Compra psit.html" target="_blank">
-                <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
-            <button id="btn-3" onclick="addcesta(this.id)" value="3"> <i class="fas fa-shopping-cart"></i> Carrinho </button>
+            </div>
+            <div id="iten-3" class="itens col-md-3">
+                <img src="pc.jfif">
+                <h3>Pc Gamer Celeron Positivo</h3>
+                <p>5.600,00 em até 12x sem juros</p>
+                <a href="Compra psit.html" target="_blank">
+                    <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
+                <button id="btn-3" onclick="addcesta(this.id)" value="3"> <i class="fas fa-shopping-cart"></i> Carrinho </button>
 
-        </div>
-        <div id="iten-4" class="itens">
-            <img src="kitgamer.jpg">
-            <h3>Kit Gamer c/ Cadeira Gamer </h3>
-            <p>18.000,00 em até 12x sem juros</p>
-            <a href="Compra kit.html" target="_blank">
-                <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
-            <button id="btn-4" onclick="addcesta(this.id)" value="4"> <i class="fas fa-shopping-cart"></i> Carrinho </button>
+            </div>
+            <div id="iten-4" class="itens col-md-3">
+                <img src="kitgamer.jpg">
+                <h3>Kit Gamer c/ Cadeira Gamer </h3>
+                <p>18.000,00 em até 12x sem juros</p>
+                <a href="Compra kit.html" target="_blank">
+                    <button> <i class="fas fa-shopping-basket"></i> Comprar </button></a>
+                <button id="btn-4" onclick="addcesta(this.id)" value="4"> <i class="fas fa-shopping-cart"></i> Carrinho </button>
 
+            </div>
         </div>
     </section>
+
     <hr>
     <footer>
         <div id="icones">
