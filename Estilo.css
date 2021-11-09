@@ -16,13 +16,24 @@
         margin: 0;
     }
     
+    #Botoesiniciar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #Botoesiniciar a {
+        text-decoration: none !important;
+    }
+    
     #search {
-        width: 800px;
+        width: 100%;
         text-align: center;
+        border: solid;
     }
     
     #search input {
-        width: 600px;
+        width: 100%;
         margin-top: 60px;
     }
     
@@ -64,7 +75,7 @@
     #contato {
         width: 900px;
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
         align-items: center;
     }
     
